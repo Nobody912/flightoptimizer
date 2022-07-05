@@ -1,0 +1,42 @@
+{
+    "AAA": {
+        "code": "AAA",
+        "state": "AA",
+        "validDestinations": {
+            "BBB": 10
+        }
+    },
+    "BBB": {
+        "code": "BBB",
+        "state": "BB",
+        "validDestinations": {
+            "CCC": 10,
+            "EEE": 10
+        }
+    },
+    "CCC": {
+        "code": "CCC",
+        "state": "CC",
+        "validDestinations": {
+            "DDD": 10
+        }
+    },
+    "DDD": {
+        "code": "DDD",
+        "state": "DD",
+        "validDestinations": {
+        }
+    },
+    "EEE": {
+        "code": "EEE",
+        "state": "EE",
+        "validDestinations": {
+        }
+    },
+    "BAD": {
+        "code": "GGG",
+        "state": "GG",
+        "validDestinations": {
+        }
+    }
+}
